@@ -76,14 +76,14 @@ class Linked_list:
 
 my_list = Linked_list()
 
-my_list.insert_at_beginning(2)
-my_list.insert_at_beginning(1)
+my_list.insert_at_beginning(2) # 2
+my_list.insert_at_beginning(1) # 1 2
 
-my_list.insert_at_end(3)
-my_list.insert_at_end(4)
+my_list.insert_at_end(3) # 1 2 3
+my_list.insert_at_end(4) # 1 2 3 4
 
-my_list.insert(10 ,0)
-my_list.insert(20 ,5)
-my_list.insert(30 ,3)
+my_list.insert(10 ,0) # 10 1 2 3 4
+my_list.insert(20 ,5) # 10 1 2 3 4 20
+my_list.insert(30 ,3) # 10 1 2 30 3 4 20
 
-my_list.display()
+my_list.display() # 10 1 2 30 3 4 20
