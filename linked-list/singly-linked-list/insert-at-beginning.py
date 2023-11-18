@@ -26,4 +26,4 @@ my_list.insert_at_first(1) # 1
 my_list.insert_at_first(2) # 2 1
 my_list.insert_at_first(3) # 3 2 1
 
-my_list.display()
+my_list.display() # 3 2 1
