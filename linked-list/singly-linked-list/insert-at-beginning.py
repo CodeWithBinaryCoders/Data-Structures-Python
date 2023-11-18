@@ -22,8 +22,8 @@ class Linked_list:
 
 my_list = Linked_list()
 
-my_list.insert_at_first(1)
-my_list.insert_at_first(2)
-my_list.insert_at_first(3)
+my_list.insert_at_first(1) # 1
+my_list.insert_at_first(2) # 2 1
+my_list.insert_at_first(3) # 3 2 1
 
 my_list.display()
