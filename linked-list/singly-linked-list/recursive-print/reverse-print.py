@@ -22,7 +22,6 @@ class Linked_list:
 
     def reverse_print(self):
         self.__recursive_print(self.__head)
-
         print()
 
         
