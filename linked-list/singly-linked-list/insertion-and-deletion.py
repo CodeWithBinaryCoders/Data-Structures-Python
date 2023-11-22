@@ -35,7 +35,7 @@ class Linked_list:
         self.__count += 1
 
     def insert_at_position(self, data, position):
-        if position < 0 or position > self.__count: # invalid position
+        if position < 0 or position > self.__count: # invalid position check
             exit(1)
 
         if not position: # if 0 == position:
