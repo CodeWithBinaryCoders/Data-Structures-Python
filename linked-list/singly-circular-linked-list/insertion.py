@@ -32,7 +32,7 @@ class Linked_list:
 
         self.__count += 1
 
-    def insert(self, data, position):
+    def insert_at_position(self, data, position):
         if position < 0 or position > self.__count:
             exit(1)
         
@@ -40,7 +40,7 @@ class Linked_list:
             self.insert_at_beginning(data)
             return
         
-        if position is self.__count:
+        if position == self.__count:
             self.insert_at_end(data)
             return
         
@@ -82,8 +82,8 @@ my_list.insert_at_beginning(1) # 1 2
 my_list.insert_at_end(3) # 1 2 3
 my_list.insert_at_end(4) # 1 2 3 4
 
-my_list.insert(10 ,0) # 10 1 2 3 4
-my_list.insert(20 ,5) # 10 1 2 3 4 20
-my_list.insert(30 ,3) # 10 1 2 30 3 4 20
+my_list.insert_at_position(10 ,0) # 10 1 2 3 4
+my_list.insert_at_position(20 ,5) # 10 1 2 3 4 20
+my_list.insert_at_position(30 ,3) # 10 1 2 30 3 4 20
 
 my_list.display() # 10 1 2 30 3 4 20
